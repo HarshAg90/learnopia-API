@@ -5,6 +5,7 @@ class PostThumb(models.Model):
     name = models.CharField(max_length= 250)
 
 class Entity(models.Model):
+    # id = models.IntegerField()
     type = models.CharField(max_length=255)
     by_user = models.CharField(max_length=255)
     course = models.CharField(max_length=255)

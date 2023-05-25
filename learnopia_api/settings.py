@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'learnopia_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'learnopia',
+        'NAME': 'test',
         'CLIENT': {
             'host': 'localhost',
             'port': 27017,
